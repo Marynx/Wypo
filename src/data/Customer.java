@@ -23,8 +23,8 @@ public class Customer extends User {
 		if(wypozyczone.size()==0){
 			System.out.println("Brak wypozyczonych pojazdow");
 		}else{
-		for(int i=1;i<=wypozyczone.size();i++){
-			System.out.println(i+". "+wypozyczone.get(i)+" Czas wypozyczenia "
+		for(int i=0;i<wypozyczone.size();i++){
+			System.out.println(i+1+". "+wypozyczone.get(i)+" Czas wypozyczenia "
 		+wypozyczone.get(i).getCzasWypozyczenia()+" termin oddania "+wypozyczone.get(i).getTerminOddania());
 		}
 		}

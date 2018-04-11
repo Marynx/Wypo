@@ -205,7 +205,7 @@ public static void oddajPojazd(Customer cus, Scanner sc){
 	
 	System.out.println("Ktory pojazd chcesz zwrocic?");
 	cus.wyswietlWypozyczone();
-	int a=sc.nextInt();
+	int a=sc.nextInt()-1;
 	
 	Pojazd poj = cus.getWypozyczone().get(a);
 	
