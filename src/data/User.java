@@ -1,6 +1,10 @@
 package data;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
+
+	private static final long serialVersionUID = -1701966671419560427L;
 	private String imie;
 	private String nazwisko;
 	private String nazwa;
@@ -46,6 +50,6 @@ public class User {
 	}
 
 	public String toString() {
-		return imie + " " + nazwisko + " :" + nazwa;
+		return imie + " : " + nazwisko + "\n" + nazwa;
 	}
 }

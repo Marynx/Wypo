@@ -1,6 +1,8 @@
 package data;
 
 public class Lodz extends Pojazd {
+
+	private static final long serialVersionUID = 6520845742996406796L;
 	private String naped;
 
 	public String getNaped() {

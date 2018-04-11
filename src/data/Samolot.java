@@ -1,7 +1,7 @@
 package data;
 
 public class Samolot extends Pojazd {
-
+	private static final long serialVersionUID = 8006460128129928415L;
 	private int liczbaPlatow;
 	private int iloscSilnikow;
 

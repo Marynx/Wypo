@@ -1,9 +1,9 @@
 package app;
 
-import data.Lodz;
+/*import data.Lodz;
 import data.Magazyn;
 import data.Samochod;
-
+*/
 public class Aplikacja {
 	public static int wybor=1;
 public static void main(String[] args) {
@@ -13,6 +13,8 @@ public static void main(String[] args) {
 	m.dodajSamochod(s);
 	m.dodajLodz(l);
 	System.out.println(m);*/
+	
+	
 	
 	AppControl app=new AppControl();
 	app.startLoop(7);

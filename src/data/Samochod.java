@@ -1,6 +1,7 @@
 package data;
 
 public class Samochod extends Pojazd{
+	private static final long serialVersionUID = -4927075251250586106L;
 	private String typ;
 	private String rodzajPaliwa;
 	public String getTyp() {
